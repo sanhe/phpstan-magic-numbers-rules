@@ -17,7 +17,7 @@ abstract class AbstractMagicNumberRule implements Rule
      */
     private $ignoreMagicNumbers;
 
-    
+
     /**
      * @param list<numeric> $ignoreMagicNumbers
      */
