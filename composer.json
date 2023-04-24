@@ -14,10 +14,10 @@
             "homepage": "https://github.com/sanhe"
         }
     ],
-    "homepage": "https://github.com/sidz/phpstan-rules",
+    "homepage": "https://github.com/sanhe/phpstan-magic-numbers-rules",
     "support": {
-        "issues": "https://github.com/sidz/phpstan-rules/issues",
-        "source": "https://github.com/sidz/phpstan-rules"
+        "issues": "https://github.com/sanhe/phpstan-magic-numbers-rules/issues",
+        "source": "https://github.com/sanhe/phpstan-magic-numbers-rules"
     },
     "require": {
         "php": "^7.2 || ^8.0, <8.3",
