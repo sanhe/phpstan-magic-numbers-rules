@@ -1,0 +1,46 @@
+{
+    "name": "sanhe/phpstan-magic-numbers-rules",
+    "type": "phpstan-extension",
+    "description": "Set of PHPStan rules",
+    "license": "MIT",
+    "keywords": [
+        "phpstan",
+        "phpstan-rules",
+        "phpstan-extreme-rules"
+    ],
+    "authors": [
+        {
+            "name": "Oleg Zhulnev, Sanhe",
+            "homepage": "https://github.com/sanhe"
+        }
+    ],
+    "homepage": "https://github.com/sidz/phpstan-rules",
+    "support": {
+        "issues": "https://github.com/sidz/phpstan-rules/issues",
+        "source": "https://github.com/sidz/phpstan-rules"
+    },
+    "require": {
+        "php": "^7.2 || ^8.0, <8.3",
+        "phpstan/phpstan": "^1.8",
+        "nikic/php-parser": "^4.14"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.4",
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sid\\PHPStan\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sid\\PHPStan\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
+    },
+    "prefer-stable": true
+}
